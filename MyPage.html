@@ -1,202 +1,140 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="MyPage.css">
-    <link rel="Icon" href="./Assets/formIcon.svg" type="image/svg">
-    <script src="script.js" defer></script>
-
-    <title>My Page</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="MyPage.css">
+  <link rel="Icon" href="./Assets/formIcon.svg" type="image/svg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-ChzDzmAAgebV6cwrWVhkV6FQ6yT6GsRsld3s7RNiv1mfDb7s79b44n+YixyE1C1wUV4shN8au91xPxw60yZ/LPtf1"  
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script src="script.js" defer></script>
+  <title>Carli's Page</title>
 </head>
 
-<header class="grid-container header">
+<body class="containerBody">
 
-    <div class="item1 PhotoAndRole">
-        <div class="MyAvatar">
-            <img src="./Assets/fotoRosto.jpeg" alt="Carliane Lima" class="facePhoto" />
+  <header class="containerHeader">
+    <nav class="container">
+      <div class="imgAndNameDiv">
+        <img src="./Assets/IMG_0617-2-removebg-preview.png" alt="Carliane Lima" class="facePhoto" />
+        <span>Carliane Lima</span>
+      </div>
+
+      <div>
+        <a href="#about" style="margin-right: 8px;">About</a>
+        <a href="#skills" style="margin-right: 8px;">Skills</a>
+        <a href="#projects" style="margin-right: 8px;">Projects</a>
+        <a href="#contact" style="margin-right: 8px;">Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section id="about">
+      <div class="container">
+        <h1>Salesforce Developer, Front-End Developer & Designer</h1>
+        <p class="descriptionAbout">Crafting beautiful, functional, and user-friendly digital experiences.</p>
+        <div id="btnId">
+          <a href="#contact" class="btn btn-outline">Get in touch</a>
         </div>
-
-        <div class="NameAndRole">
-            <h1 class="Name">Carliane Lima</h1>
-            <p class="Role">Salesforce Developer and Front-End Developer</p>
-        </div>
-    </div>
-
-    <div class="ProfileLinks">
-        <nav>
-            <a class="ResumeClass" href="#">Resume</a>
-            <a class="GithubClass" href="https://github.com/CarlianeLima" target="_blank">Github</a>
-            <a class="LinkedInClass" href="https://www.linkedin.com/in/carliane-lima-143635178/"
-                target="_blank">LinkedIn</a>
-        </nav>
-    </div>
-
-</header>
-
-<body class="Body">
-
-    <section class="sectionContainer">
-        <div class="container">
-
-            <div class="IntrodutionAndDetailsSection">
-
-                <div class="IntrodutionBox">
-                    <img src="./Assets/canvasArt1.png" alt="Developer" class="myImage" />
-                </div>
-
-                <div>
-                    <div class="WorkExperienceBox">
-                        <h3>Work Experience</h3>
-                        <div>
-                            <div class="grid gap-1">
-                                <div>Software Engineer</div>
-                                <div>Acme Inc. | 2020 - Present</div>
-                                <p>Developed and maintained web applications using React, Node.js, and MongoDB. Collaborated with cross-functional teams to deliver high-quality solutions.</p>
-                            </div>
-
-                            <div>
-                                <div>Intern Software Developer</div>
-                                <div>Widgets Inc. | 2019 - 2020</div>
-                                <p>Gained experience in web development, database management, and agile software development practices.</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-                    <div class="EducationBox">
-                        <h3>Education</h3>
-                        <div>
-                            <div class="grid gap-1">
-                                <div>Bachelor of Science in Computer Science</div>
-                                <div>University of Example | 2015 - 2019</div>
-                                <p>Graduated with a 3.8 GPA and received the Dean's List award.</p>
-                            </div>
-                        </div>
-
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
+      </div>
     </section>
 
-    <section class="skillsSection">
-        <div class"skillsContainer">
-          <div class="grid">
-            <div >
-              <h2 >Skills</h2>
-              <p >Here are some of the technologies and tools I'm proficient in:</p>
+    <section id="skills">
+      <div class="container">
+        <h2>Skills</h2>
+        <div class="skills">
+
+          <div class="skill-card" style="border-color: #a855f7;">
+            <h3>Salesforce</h3>
+            <ul style="list-style-type: none; padding: 0;">
+              <li>Salesforce Development</li>
+              <li>Salesforce Administration</li>
+              <li>LWC</li>
+              <li>Apex</li>
+            </ul>
+          </div>
+
+          <div class="skill-card">
+            <h3>Front-End Development</h3>
+            <ul style="list-style-type: none; padding: 0;">
+              <li>HTML5, CSS3, JavaScript</li>
+              <li>React</li>
+              <li>Responsive Web Design</li>
+              <li>Performance Optimization</li>
+            </ul>
+          </div>
+
+          <div class="skill-card" style="border-color: #a855f7;">
+            <h3>Design</h3>
+            <ul style="list-style-type: none; padding: 0;">
+              <li>UI/UX Design</li>
+              <li>Adobe Creatives</li>
+              <li>Figma</li>
+              <li>Photoshop</li>
+              <li>Illustrator</li>
+              <li>Canva</li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </section>
+
+    <section id="projects">
+      <div class="container">
+        <h2>Projects</h2>
+        <div class="projects">
+          <div class="project-card">
+            <div class="project-card-content">
+              <h3>Project 1</h3>
+              <p>A brief description of the project and the technologies used.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
             </div>
-
-            <div class="grid grid-cols-2 gap-4">
-              <div >
-                <div class="reactIcon"></div>
-                <span >React</span>
-              </div>
-
-              <div >
-                <div class="nodeIcon"></div>
-                <span >Node.js</span>
-              </div>
-
-              <div >
-                <div class="mongoIcon" ></div>
-                <span >MongoDB</span>
-              </div>
-
-              <div >
-                <div class="gitIcon" ></div>
-                <span >Git</span>
-              </div>
-
-              <div >
-                <div class="javascriptIcon" ></div>
-                <span >JavaScript</span>
-              </div>
-
-              <div >
-                <div class="typescriptIcon" ></div>
-                <span >TypeScript</span>
-              </div>
-
+          </div>
+          <div class="project-card">
+            <div class="project-card-content">
+              <h3>Project 2</h3>
+              <p>A brief description of the project and the technologies used.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
+            </div>
+          </div>
+          <div class="project-card">
+            <div class="project-card-content">
+              <h3>Project 3</h3>
+              <p>A brief description of the project and the technologies used.</p>
+              <a href="#" class="btn btn-primary">View Project</a>
             </div>
           </div>
         </div>
-      </section>
+      </div>
+    </section>
 
-      <section className="bg-gray-100 dark:bg-gray-800 py-12 md:py-24 lg:py-32">
-        <div className="container px-4 md:px-6">
-          <div className="grid gap-8 md:grid-cols-2 md:gap-16">
-            <div className="space-y-4">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">Contact</h2>
-              <p className="text-gray-500 md:text-xl dark:text-gray-400">
-                Feel free to reach out to me if you have any questions or would like to collaborate on a project.
-              </p>
-              <div className="flex flex-col gap-4">
-                <div className="flex items-center gap-2">
-                  <MailOpenIcon className="h-5 w-5 text-gray-500 dark:text-gray-400" />
-                  <a href="#" className="text-sm text-gray-500 hover:underline dark:text-gray-400">
-                    john.doe@example.com
-                  </a>
-                </div>
-                <div className="flex items-center gap-2">
-                  <PhoneIcon className="h-5 w-5 text-gray-500 dark:text-gray-400" />
-                  <a href="#" className="text-sm text-gray-500 hover:underline dark:text-gray-400">
-                    +1 (234) 567-890
-                  </a>
-                </div>
-                <div className="flex items-center gap-2">
-                  <LinkIcon className="h-5 w-5 text-gray-500 dark:text-gray-400" />
-                  <a href="#" className="text-sm text-gray-500 hover:underline dark:text-gray-400">
-                    www.example.com
-                  </a>
-                </div>
-              </div>
-            </div>
-            <div className="grid gap-4">
-              <div className="bg-white dark:bg-gray-950 rounded-lg p-6 shadow-sm">
-                <h3 className="text-lg font-bold">Online Profiles</h3>
-                <div className="space-y-4 mt-4">
-                  <div className="flex items-center gap-2">
-                    <GitlabIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
-                    <a href="#" className="text-sm text-gray-500 hover:underline dark:text-gray-400">
-                      GitHub
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <LinkedinIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
-                    <a href="#" className="text-sm text-gray-500 hover:underline dark:text-gray-400">
-                      LinkedIn
-                    </a>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <TwitterIcon className="h-6 w-6 text-gray-500 dark:text-gray-400" />
-                    <a href="#" className="text-sm text-gray-500 hover:underline dark:text-gray-400">
-                      Twitter
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
+    <section id="contact">
+      <div class="container contactContainer">
+        <h2>Contact Me</h2>
+        <form id="contact-form">
+          <input type="text" placeholder="Name" required>
+          <input type="email" placeholder="Email" required>
+          <textarea placeholder="Type your Message" rows="5" required></textarea>
+          <button type="submit" class="sendMessageButton">
+            Send Message
+            <svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 -960 960 960" width="20px" fill="white" class="sendIcon">
+              <path d="M120-160v-640l760 320-760 320Zm80-120 474-200-474-200v140l240 60-240 60v140Zm0 0v-400 400Z" />
+            </svg>
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
 
-      <footer class="footerBox">
-        <p >&copy; 2024 Carliane Lima</p>
-        <div className="flex items-center gap-4">
-          <Link href="#" className="text-sm hover:underline" prefetch={false}>
-            Privacy
-          </Link>
-          <Link href="#" className="text-sm hover:underline" prefetch={false}>
-            Terms
-          </Link>
-        </div>
-      </footer>
-
+  <footer>
+    <div class="container">
+      <p>© 2024 Carliane Lima. All rights reserved.</p>
+    </div>
+  </footer>
 
 </body>
 
