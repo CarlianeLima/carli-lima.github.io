@@ -60,6 +60,11 @@ main {
 
 section {
     padding: 60px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    height: 21rem;
 }
 
 h1, h2, h3 {
@@ -76,6 +81,12 @@ h2 {
     font-size: 36px;
     color: #9d1dd8;
     text-align: center;
+}
+
+.heroDiv {
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 .descriptionAbout {
@@ -142,6 +153,18 @@ h2 {
 
 #projects {
     height: 22rem;
+}
+
+@media screen and (max-width: 1500px) {
+    #projects {
+        height: 30rem;
+    }
+
+    .MyPhotoSetting {
+        bottom: -60px;
+        position: relative;
+    }
+    
 }
 
 .projects {
