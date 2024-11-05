@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family: "Roboto Mono", monospace;
     margin: 0;
     padding: 0;
     background-color: rgb(34, 14, 55);
@@ -16,8 +16,7 @@ header {
     position: sticky;
     top: 0;
     z-index: 50;
-    width: 100%;
-    border-bottom: 1px solid #9d1dd8;
+    width: auto;
     background-color: rgb(34, 14, 55);
     backdrop-filter: blur(10px);
 }
@@ -55,15 +54,43 @@ nav a:hover {
 }
 
 main {
-    padding: 40px 0;
+    padding-bottom: 40px;
 }
 
-section {
-    padding: 60px 0;
+#about {
     display: flex;
     align-items: center;
     flex-wrap: nowrap;
     flex-direction: row;
+    width: auto;
+    height: 21rem;
+}
+
+#skills {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: auto;
+    height: 29rem;
+    background-color: white;
+}
+
+#projects {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: auto;
+    height: 22rem;
+}
+
+#contact {
+    display: flex;
+    align-items: center;
+    flex-wrap: nowrap;
+    flex-direction: row;
+    width: auto;
     height: 21rem;
 }
 
@@ -134,11 +161,6 @@ h2 {
     gap: 20px;
 }
 
-#skills {
-    background-color: white;
-    height: 22rem;
-}
-
 .skill-card {
     border: 2px solid #06b6d4;
     border-radius: 8px;
@@ -149,22 +171,6 @@ h2 {
 
 .skill-card:hover {
     background-color: rgb(46, 17, 77);
-}
-
-#projects {
-    height: 21rem;
-}
-
-@media screen and (max-width: 1500px) {
-    #projects {
-        height: 30rem;
-    }
-
-    .MyPhotoSetting {
-        bottom: -60px;
-        position: relative;
-    }
-    
 }
 
 .projects {
@@ -259,11 +265,4 @@ footer {
     .skills, .projects {
         grid-template-columns: 1fr;
     }
-}
-
-.MyPhotoUp {
-    position: relative;
-    max-width: 400px;
-    left: 7%;
-    bottom: 64px;
 }

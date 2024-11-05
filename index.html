@@ -5,15 +5,13 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="MyPage.css">
-  <link rel="Icon" href="./Assets/formIcon.svg" type="image/svg">
-  <script src="./MyPage.js" defer></script>
 
-  <script src="https://cdn.emailjs.com/dist/email.min.js"></script>
-  <script>
-    (function(){
-        emailjs.init("0qejaLIyKLlei3oIX");
-    })();
-  </script>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+
+  <script src="./MyPage.js" defer></script>
   
   <title>Carli's Page</title>
 </head>
@@ -49,13 +47,16 @@
 
     <section id="skills">
 
-      <img src="./Assets/IMG_0672-removebg-preview.png" alt="Me Up" class="MyPhotoUp"/>
-
       <div class="container">
         <h2>Skills</h2>
         <div class="skills">
 
           <div class="skill-card" style="border-color: #a855f7;">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-cloudy-fill" viewBox="0 0 16 16">
+              <path d="M13.405 7.027a5.001 5.001 0 0 0-9.499-1.004A3.5 3.5 0 1 0 3.5 13H13a3 3 0 0 0 .405-5.973"/>
+            </svg>
+
             <h3>Salesforce</h3>
             <ul style="list-style-type: none; padding: 0;">
               <li>Salesforce Development</li>
@@ -66,6 +67,11 @@
           </div>
 
           <div class="skill-card">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-file-earmark-code-fill" viewBox="0 0 16 16">
+              <path d="M9.293 0H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h8a2 2 0 0 0 2-2V4.707A1 1 0 0 0 13.707 4L10 .293A1 1 0 0 0 9.293 0M9.5 3.5v-2l3 3h-2a1 1 0 0 1-1-1M6.646 7.646a.5.5 0 1 1 .708.708L5.707 10l1.647 1.646a.5.5 0 0 1-.708.708l-2-2a.5.5 0 0 1 0-.708zm2.708 0 2 2a.5.5 0 0 1 0 .708l-2 2a.5.5 0 0 1-.708-.708L10.293 10 8.646 8.354a.5.5 0 1 1 .708-.708"/>
+            </svg>
+
             <h3>Front-End Development</h3>
             <ul style="list-style-type: none; padding: 0;">
               <li>HTML5, CSS3, JavaScript</li>
@@ -76,6 +82,11 @@
           </div>
 
           <div class="skill-card" style="border-color: #a855f7;">
+
+            <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-palette-fill" viewBox="0 0 16 16">
+              <path d="M12.433 10.07C14.133 10.585 16 11.15 16 8a8 8 0 1 0-8 8c1.996 0 1.826-1.504 1.649-3.08-.124-1.101-.252-2.237.351-2.92.465-.527 1.42-.237 2.433.07M8 5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3m4.5 3a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3M5 6.5a1.5 1.5 0 1 1-3 0 1.5 1.5 0 0 1 3 0m.5 6.5a1.5 1.5 0 1 1 0-3 1.5 1.5 0 0 1 0 3"/>
+            </svg>
+
             <h3>Design</h3>
             <ul style="list-style-type: none; padding: 0;">
               <li>UI/UX Design</li>
@@ -120,10 +131,6 @@
         </div>
       </div>
 
-      <div>
-        <img src="./Assets/MeSitting.png" alt="Me Setting" class="MyPhotoSetting" />
-      </div>
-
     </section>
 
     <section id="contact">
@@ -148,7 +155,8 @@
 
   <footer>
     <div class="container">
-      <p>© 2024 Carliane Lima. All rights reserved.</p>
+      <p>© 2024 Carliane Lima</p>
+      <p>All rights reserved</p>
     </div>
   </footer>
 
